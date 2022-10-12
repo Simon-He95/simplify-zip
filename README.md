@@ -34,4 +34,9 @@ simplifyZIP({
 });
 ```
 
+## Thanks
+- [`jszip`](https://www.npmjs.com/package/jszip)
+- [`file-saver`](https://www.npmjs.com/package/file-saver)
+- [`simon-js-tool`](https://github.com/Simon-He95/simon-js-tool)
+
 <a href="https://github.com/Simon-He95/sponsor" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
