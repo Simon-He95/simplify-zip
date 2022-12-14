@@ -1,6 +1,6 @@
 import JSZip from 'jszip'
 import { saveAs } from 'file-saver'
-import { toBase64 } from 'simon-js-tool'
+import { toBase64 } from 'lazy-js-utils'
 export async function simplifyZIP(options: Record<string, any>) {
   const zip = await generateZip(options)
   zip.generateAsync({ type: 'blob' }).then((content: Blob) => saveAs(content, 'example.zip'))
